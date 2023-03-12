@@ -61,41 +61,41 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(26, 122);
+            this.label3.Location = new System.Drawing.Point(113, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 22);
+            this.label3.Size = new System.Drawing.Size(52, 22);
             this.label3.TabIndex = 2;
-            this.label3.Text = "HEMOGLOBIN";
+            this.label3.Text = "MCV";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(113, 177);
+            this.label4.Location = new System.Drawing.Point(98, 177);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 22);
+            this.label4.Size = new System.Drawing.Size(67, 22);
             this.label4.TabIndex = 3;
-            this.label4.Text = "MCH";
+            this.label4.Text = "MCHC";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(99, 238);
+            this.label5.Location = new System.Drawing.Point(109, 238);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 22);
+            this.label5.Size = new System.Drawing.Size(56, 22);
             this.label5.TabIndex = 4;
-            this.label5.Text = "MCHC";
+            this.label5.Text = "RDW";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(106, 313);
+            this.label6.Location = new System.Drawing.Point(113, 313);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 22);
             this.label6.TabIndex = 5;
-            this.label6.Text = "MCV";
+            this.label6.Text = "HGB";
             // 
             // label7
             // 
