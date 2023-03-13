@@ -28,10 +28,10 @@ namespace TeamWangan_BackPropagation
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //initiate inputs, desired outputs and let the algorithm learn
+            
             var data = File.ReadAllLines(fileName)
-                    .Skip(1) // Skip header row
-                    .Select(row => row.Split(',')) // Split rows by comma
+                    .Skip(1) 
+                    .Select(row => row.Split(',')) 
                     .Select(row => new
                     {
                         Inputs = row.Take(row.Length - 1).Select(float.Parse).ToArray(),
@@ -39,10 +39,10 @@ namespace TeamWangan_BackPropagation
                     })
                     .ToArray();
 
-            // Create neural network
+           
             var numInputs = data.First().Inputs.Length;
             var numOutputs = 1;
-            var numHidden = 10; // Adjust as needed
+            var numHidden = 10;
             nn = new NeuralNet(numInputs, numHidden, numOutputs);
             for (int i = 0; i < Convert.ToInt32(txtTraining.Text); i++)
             {

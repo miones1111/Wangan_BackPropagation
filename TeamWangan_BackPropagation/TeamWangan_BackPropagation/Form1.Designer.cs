@@ -39,7 +39,6 @@
             this.txtInput3 = new System.Windows.Forms.TextBox();
             this.txtInput4 = new System.Windows.Forms.TextBox();
             this.txtResult = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnTrain = new System.Windows.Forms.Button();
             this.btnTest = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -160,25 +159,14 @@
             this.txtResult.Size = new System.Drawing.Size(206, 22);
             this.txtResult.TabIndex = 11;
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(250, 582);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 47);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Create";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // btnTrain
             // 
             this.btnTrain.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTrain.Location = new System.Drawing.Point(395, 582);
+            this.btnTrain.Location = new System.Drawing.Point(259, 582);
             this.btnTrain.Name = "btnTrain";
             this.btnTrain.Size = new System.Drawing.Size(101, 47);
             this.btnTrain.TabIndex = 13;
-            this.btnTrain.Text = "Epoch";
+            this.btnTrain.Text = "Train";
             this.btnTrain.UseVisualStyleBackColor = true;
             this.btnTrain.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -375,7 +363,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnTest);
             this.Controls.Add(this.btnTrain);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.txtInput4);
             this.Controls.Add(this.txtInput3);
@@ -411,7 +398,6 @@
         private System.Windows.Forms.TextBox txtInput3;
         private System.Windows.Forms.TextBox txtInput4;
         private System.Windows.Forms.TextBox txtResult;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnTrain;
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Label label2;
